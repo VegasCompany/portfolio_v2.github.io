@@ -1,0 +1,190 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	border:red 3px solid
+}
+body input:required:valid,
+body textarea:required:valid {
+	border: green 3px solid
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+h1{
+    font-family: "RobotoCondensedBold", sans-serif;
+    font-size: 36px;
+}
+
+p{
+    color: #ccc;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/*HEader_up*/
+
+header{
+    background: #edeef0;
+}
+
+.header_up{
+    background: #4f739a;
+}
+
+.header_logo{
+    color: #ffffff;
+    font-family: 'Russo One', sans-serif;
+    font-size: 30px;
+    float: left;
+}
+
+.soc_button a{
+    color: #fff;
+    float: right;
+    font-size: 30px;
+    padding: 15px;
+    margin-top: 13px;
+}
+
+.soc_button a:hover{
+    color: #ccc;
+    margin-top: 10px;
+}
+/*Header_nav*/
+
+.header_mnu{
+    background: #fff;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.header_mnu li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+.header_mnu li:hover{
+    background: #4f739a;
+    color: #fff;
+    transition: 0.25s
+}
+
+.header_mnu a{
+    color: #4f739a;
+    padding: 15px
+}
+
+.header_mnu li a:hover{
+    color: #fff;
+    transition: 0.25s
+}
+
+.nav_contact{
+    color: #fff;
+    float: right;
+    font-size: 36px;
+    margin: -51px 0;
+    padding: 0 5px 0 5px;
+    background: #4f739a;
+}
+
+.slider_container{
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-bottom: 40px
+}
+
+.next_button{
+    right: 160px
+}
+
+.prev_button{
+    left: 80px
+}
+
+/*Info*/
+
+.info{
+    padding: 50px 0 50px;
+    background: #4f739a;
+}
+
+.info_portfolio{
+    display: inline
+}
+
+.info_portfolio h3{
+    font-size: 40px;
+}
+
+.info_portfolio p{
+    font-size: 20px;
+}
+
+.flex{
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.flex_info span{
+    color: white;
+}
+
+.Order{
+    background: #edeef0;
+}
+
+.order_h1{
+    color: black;
+    padding: 0;
+    margin: 40px 0 20px 0;
+}
+
+.btn_buy{
+    color: white;
+    float: right;
+    padding: 15px 30px;
+    font-size: 30px;
+    margin-right: 150px;
+    margin-top: -50px;
+    margin-bottom: 40px;
+    background: #4f739a;
+    border-radius: 10px;
+}
+
+.form input{
+    display: block;
+    margin: 20px;
+}
+
+.btn_pop{
+    border: none;
+    padding: 5px 16px;
+    margin-left: 55px;
+    background: #4f739a;
+    color: white;
+}
